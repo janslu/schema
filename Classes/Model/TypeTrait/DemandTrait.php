@@ -32,7 +32,6 @@ trait DemandTrait
     protected $gtin14;
     protected $gtin8;
     protected $includesObject;
-    protected $ineligibleRegion;
     protected $inventoryLevel;
     protected $itemCondition;
     protected $itemOffered;

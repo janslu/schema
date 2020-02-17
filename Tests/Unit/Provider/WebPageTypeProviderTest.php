@@ -20,6 +20,7 @@ class WebPageTypeProviderTest extends TestCase
             'ImageGallery',
             'ItemPage',
             'MediaGallery',
+            'MedicalwebPage',
             'ProfilePage',
             'QAPage',
             'SearchResultsPage',

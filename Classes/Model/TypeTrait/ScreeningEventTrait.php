@@ -12,7 +12,6 @@ namespace Brotkrueml\Schema\Model\TypeTrait;
 
 trait ScreeningEventTrait
 {
-    protected $subtitleLanguage;
     protected $videoFormat;
     protected $workPresented;
 }

@@ -31,7 +31,6 @@ trait PersonTrait
     protected $faxNumber;
     protected $follows;
     protected $funder;
-    protected $gender;
     protected $givenName;
     protected $globalLocationNumber;
     protected $hasOccupation;
@@ -43,7 +42,6 @@ trait PersonTrait
     protected $honorificSuffix;
     protected $interactionStatistic;
     protected $isicV4;
-    protected $jobTitle;
     protected $knows;
     protected $makesOffer;
     protected $memberOf;

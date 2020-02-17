@@ -20,7 +20,7 @@
     "require": {
         "php": "^7.2",
         "ext-json": "*",
-        "typo3/cms-core": "^9.5 || ^10.0"
+        "typo3/cms-core": "^9.5"
     },
     "require-dev": {
         "clue/graph": "^0.9",
@@ -31,7 +31,7 @@
         "phpstan/phpstan": "^0.11",
         "phpunit/phpunit": "^8.4",
         "twig/twig": "^3.0",
-        "typo3/testing-framework": "^4.13 || ^5.0"
+        "typo3/testing-framework": "^4.13"
     },
     "replace": {
         "typo3-ter/schema": "self.version"

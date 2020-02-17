@@ -15,5 +15,4 @@ trait DeliveryChargeSpecificationTrait
     protected $appliesToDeliveryMethod;
     protected $areaServed;
     protected $eligibleRegion;
-    protected $ineligibleRegion;
 }

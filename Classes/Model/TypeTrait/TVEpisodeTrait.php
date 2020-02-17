@@ -13,5 +13,4 @@ namespace Brotkrueml\Schema\Model\TypeTrait;
 trait TVEpisodeTrait
 {
     protected $countryOfOrigin;
-    protected $subtitleLanguage;
 }

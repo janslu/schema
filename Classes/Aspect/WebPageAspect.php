@@ -19,7 +19,7 @@ use TYPO3\CMS\Frontend\Controller\TypoScriptFrontendController;
 
 final class WebPageAspect implements AspectInterface
 {
-    private const DEFAULT_WEBPAGE_TYPE = 'WebPage';
+    private const DEFAULT_WEBPAGE_TYPE = 'MedicalWebPage';
 
     /** @var TypoScriptFrontendController */
     private $controller;

@@ -10,7 +10,7 @@ namespace Brotkrueml\Schema\Model\TypeTrait;
  * LICENSE.txt file that was distributed with this source code.
  */
 
-trait SportsOrganizationTrait
+trait MedicalWebPageTrait
 {
-    protected $sport;
+    protected $reviewedBy;
 }

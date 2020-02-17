@@ -18,6 +18,5 @@ trait MovieTrait
     protected $duration;
     protected $musicBy;
     protected $productionCompany;
-    protected $subtitleLanguage;
     protected $trailer;
 }
