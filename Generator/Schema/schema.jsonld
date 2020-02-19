@@ -2533,6 +2533,9 @@
         },
         {
           "@id": "http://schema.org/CreativeWork"
+        },
+        {
+          "@id": "http://schema.org/WebPage"
         }
       ],
       "http://schema.org/rangeIncludes": {
@@ -18441,6 +18444,15 @@
       "rdfs:label": "PeopleAudience",
       "rdfs:subClassOf": {
         "@id": "http://schema.org/Audience"
+      }
+    },
+    {
+      "@id": "http://schema.org/MedicalAudience",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "A set of characteristics belonging to people, e.g. who compose an item's target audience.",
+      "rdfs:label": "MedicalAudience",
+      "rdfs:subClassOf": {
+        "@id": "http://schema.org/PeopleAudience"
       }
     },
     {

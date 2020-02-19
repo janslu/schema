@@ -12,6 +12,7 @@ namespace Brotkrueml\Schema\Model\TypeTrait;
 
 trait WebPageTrait
 {
+    protected $audience;
     protected $breadcrumb;
     protected $lastReviewed;
     protected $mainContentOfPage;

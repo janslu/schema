@@ -349,6 +349,7 @@ final class TypesProvider
                             'MediaGallery',
                             'MediaObject',
                             'MediaSubscription',
+                            'MedicalAudience',
                             'MedicalOrganization',
                             'MedicalWebPage',
                             'MeetingRoom',
