@@ -14,7 +14,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 use Brotkrueml\Schema\Manager\SchemaManager;
 use Brotkrueml\Schema\Model\Type\BreadcrumbList;
 use Brotkrueml\Schema\Model\Type\ListItem;
-use Brotkrueml\Schema\Model\Type\WebPage;
+use Brotkrueml\Schema\Model\Type\MedicalWebPage;
 use Brotkrueml\Schema\Utility\Utility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;
@@ -99,7 +99,7 @@ final class BreadcrumbViewHelper extends ViewHelper\AbstractViewHelper
 
         $breadcrumbList = (new BreadcrumbList());
         for ($i = 0; $i < count($arguments[static::ARGUMENT_BREADCRUMB]); $i++) {
-            $webPageTypeClass = WebPage::class;
+            $webPageTypeClass = MedicalWebPage::class;
             if (static::hasWebPageType($arguments[static::ARGUMENT_BREADCRUMB][$i])) {
                 $givenItemTypeClass = Utility::getNamespacedClassNameForType($arguments[static::ARGUMENT_BREADCRUMB][$i]['data']['tx_schema_webpagetype']);
                 $webPageTypeClass = $givenItemTypeClass ?: $webPageTypeClass;
