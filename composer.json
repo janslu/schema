@@ -20,7 +20,7 @@
     "require": {
         "php": "^7.2",
         "ext-json": "*",
-        "typo3/cms-core": "^9.5"
+        "typo3/cms-core": "^9.5 || ^10.4"
     },
     "require-dev": {
         "clue/graph": "^0.9",
